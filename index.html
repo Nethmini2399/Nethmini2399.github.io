@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Nethmini Vinodya — aspiring software engineer passionate about programming, data structures, web development, and building impactful digital solutions." />
+  <meta name="keywords" content="Nethmini Vinodya, Software Engineer, Portfolio, Java, Web Development, Data Structures" />
+  <meta name="author" content="Nethmini Vinodya" />
+  <meta property="og:title" content="Nethmini Vinodya | Software Engineer Portfolio" />
+  <meta property="og:description" content="Aspiring software engineer & technology enthusiast building modern digital solutions." />
+  <meta property="og:type" content="website" />
+  <title>Nethmini Vinodya | Software Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="leaf-container" aria-hidden="true"></div>
+
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#" class="nav-logo">NV<span class="accent-dot">.</span></a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="glass-btn glass-btn-primary nav-cta">Get in Touch</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="glass-btn glass-btn-primary">Get in Touch</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-background">
+        <img src="Assets/bg_1.jpg" alt="Background image" />
+      </div>
+      <div class="hero-overlay"></div>
+      
+      <div class="container hero-center-content reveal">
+        <div class="hero-profile-pic">
+          <img src="Assets/profile-hero.jpg" alt="Nethmini Vinodya" loading="eager" />
+        </div>
+        <h1>Hi, I'm Nethmini Vinodya</h1>
+        <p class="hero-role">I'M ASPIRING SOFTWARE ENGINEER</p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">About Me</span>
+          <h2>Who I Am</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-images reveal">
+            <div class="about-img-main glass-card">
+              <img src="Assets/image_1.jpg" alt="About Me" width="400" height="500" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="about-content">
+            <div class="glass-card about-text reveal">
+              <p>I am an enthusiastic undergraduate student with a strong passion for technology and software development. My academic journey has allowed me to build knowledge in programming, data structures, object-oriented concepts, economics, and web technologies. I enjoy solving problems, learning new technologies, and transforming ideas into practical solutions. My goal is to grow into a skilled software engineer capable of creating innovative and user-focused applications.</p>
+            </div>
+
+            <div class="highlight-cards">
+              <div class="glass-card highlight-card reveal">
+                <div class="highlight-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <div>
+                  <h3>Clean Code</h3>
+                  <p>Writing maintainable, efficient solutions</p>
+                </div>
+              </div>
+              <div class="glass-card highlight-card reveal reveal-delay-1">
+                <div class="highlight-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7V17h8v-2.3A7 7 0 0 0 12 2z"/></svg>
+                </div>
+                <div>
+                  <h3>Problem Solver</h3>
+                  <p>Turning complex challenges into elegant answers</p>
+                </div>
+              </div>
+              <div class="glass-card highlight-card reveal reveal-delay-2">
+                <div class="highlight-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                </div>
+                <div>
+                  <h3>Goal Driven</h3>
+                  <p>Focused on continuous growth and impact</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Skills</span>
+          <h2>What I Know</h2>
+          <p class="section-desc">A blend of programming expertise, computer science fundamentals, and interdisciplinary knowledge.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="glass-card skill-category reveal">
+            <h3>Programming Languages</h3>
+            <div class="skill-bars">
+              <div class="skill-item" data-level="85"><div class="skill-info"><span>Java</span><span>85%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="80"><div class="skill-info"><span>C</span><span>80%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="90"><div class="skill-info"><span>HTML</span><span>90%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="85"><div class="skill-info"><span>CSS</span><span>85%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="80"><div class="skill-info"><span>JavaScript</span><span>80%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+            </div>
+          </div>
+
+          <div class="glass-card skill-category reveal reveal-delay-1">
+            <h3>Computer Science</h3>
+            <div class="skill-bars">
+              <div class="skill-item" data-level="85"><div class="skill-info"><span>Object-Oriented Programming</span><span>85%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="80"><div class="skill-info"><span>Data Structures &amp; Algorithms</span><span>80%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="75"><div class="skill-info"><span>Database Fundamentals</span><span>75%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="80"><div class="skill-info"><span>Software Engineering Principles</span><span>80%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="90"><div class="skill-info"><span>Problem Solving</span><span>90%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+            </div>
+          </div>
+
+          <div class="glass-card skill-category reveal reveal-delay-2">
+            <h3>Other Knowledge Areas</h3>
+            <div class="skill-bars">
+              <div class="skill-item" data-level="75"><div class="skill-info"><span>Economics</span><span>75%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="70"><div class="skill-info"><span>E-Commerce</span><span>70%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="80"><div class="skill-info"><span>Information Systems</span><span>80%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+              <div class="skill-item" data-level="85"><div class="skill-info"><span>Digital Technologies</span><span>85%</span></div><div class="skill-track"><div class="skill-fill"></div></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Education</span>
+          <h2>Academic Journey</h2>
+          <p class="section-desc">Building a strong foundation in technology and software development.</p>
+        </div>
+
+        <div class="education-layout">
+
+
+          <div class="glass-card education-card reveal reveal-delay-1">
+            <div class="timeline-marker">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+            </div>
+            <span class="edu-status">Current</span>
+            <h3>Undergraduate Student</h3>
+            <p class="edu-field">Information Technology / Computing Related Field</p>
+            <p class="edu-uni">Faculty of Technology, University of Ruhuna</p>
+            <div class="focus-areas">
+              <h4>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                Focus Areas
+              </h4>
+              <div class="tags">
+                <span class="glass-pill">Software Development</span>
+                <span class="glass-pill">Data Structures</span>
+                <span class="glass-pill">Web Technologies</span>
+                <span class="glass-pill">Programming</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Projects</span>
+          <h2>Featured Work</h2>
+          <p class="section-desc">A collection of projects showcasing my skills in software development and problem-solving.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="glass-card project-card reveal">
+            <div class="project-image">
+              <img src="Assets/pimg_2.jpg" alt="Learning Management System" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Learning Management System</h3>
+              <p>A comprehensive platform for managing courses, tracking student progress, and handling academic records efficiently.</p>
+              <div class="tags"><span>Java</span><span>MySQL</span><span>OOP</span></div>
+              <div class="project-links">
+                <a href="#" class="glass-btn glass-btn-secondary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="glass-btn glass-btn-primary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card project-card reveal reveal-delay-1">
+            <div class="project-image">
+              <img src="Assets/pimg_1.jpg" alt="E Commerce Website" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>E Commerce Website</h3>
+              <p>Full-featured online store with product catalog, shopping cart functionality, and simulated checkout flow.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" class="glass-btn glass-btn-secondary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="glass-btn glass-btn-primary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card project-card reveal reveal-delay-2">
+            <div class="project-image">
+              <img src="Assets/pimg_3.jpg" alt="My Website Portfolio" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>My Website Portfolio</h3>
+              <p>A modern, responsive personal portfolio website showcasing my skills, projects, and educational background.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links">
+                <a href="#" class="glass-btn glass-btn-secondary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="glass-btn glass-btn-primary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card project-card reveal">
+            <div class="project-image">
+              <img src="Assets/pimg_4.jpg" alt="Learning Management Database System" loading="lazy" />
+            </div>
+            <div class="project-body">
+              <h3>Learning Management Database System</h3>
+              <p>A robust relational database architecture designed to manage thousands of records for educational institutions.</p>
+              <div class="tags"><span>SQL</span><span>ERD</span></div>
+              <div class="project-links">
+                <a href="#" class="glass-btn glass-btn-secondary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                  GitHub
+                </a>
+                <a href="#" class="glass-btn glass-btn-primary" target="_blank" rel="noopener noreferrer">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Achievements</span>
+          <h2>Milestones</h2>
+          <p class="section-desc">Key accomplishments and continuous growth throughout my academic journey.</p>
+        </div>
+
+        <div class="achievements-grid">
+          <div class="glass-card achievement-card reveal">
+            <div class="achievement-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+            </div>
+            <h3>Academic Coursework</h3>
+            <p>Completed rigorous coursework in programming, data structures, and software engineering fundamentals.</p>
+          </div>
+          <div class="glass-card achievement-card reveal reveal-delay-1">
+            <div class="achievement-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Programming Assignments</h3>
+            <p>Delivered multiple programming assignments demonstrating proficiency in Java, C, and problem-solving.</p>
+          </div>
+          <div class="glass-card achievement-card reveal reveal-delay-2">
+            <div class="achievement-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/></svg>
+            </div>
+            <h3>Software Development Projects</h3>
+            <p>Built end-to-end applications including management systems and web prototypes from concept to completion.</p>
+          </div>
+          <div class="glass-card achievement-card reveal reveal-delay-3">
+            <div class="achievement-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+            </div>
+            <h3>Continuous Learning</h3>
+            <p>Actively expanding skills through online courses, documentation, and hands-on experimentation with new technologies.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-badge">Contact</span>
+          <h2>Get In Touch</h2>
+          <p class="section-desc">Have a project in mind or want to connect? I'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-links">
+            <a href="javascript:void(0)" class="glass-card contact-link reveal">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Email</span>
+                <span class="contact-value">nethminivinodya@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/nethmini-gunasekara-28bab0326/" class="glass-card contact-link reveal reveal-delay-1" target="_blank" rel="noopener noreferrer">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">Connect on LinkedIn</span>
+              </div>
+            </a>
+            <a href="https://github.com/Nethmini2399" class="glass-card contact-link reveal reveal-delay-2" target="_blank" rel="noopener noreferrer">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">View my repositories</span>
+              </div>
+            </a>
+            <div class="glass-card contact-link reveal reveal-delay-3">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <span class="contact-label">Location</span>
+                <span class="contact-value">Ratnapura</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-logo">Nethmini<span class="accent-dot">.</span></p>
+        <p class="footer-tagline">Growing like nature — one branch at a time.</p>
+      </div>
+
+      <nav aria-label="Footer navigation">
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <a href="https://github.com/Nethmini2399" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/nethmini-gunasekara-28bab0326/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="javascript:void(0)" aria-label="Email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Nethmini Vinodya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top glass-btn glass-btn-primary" id="back-to-top" aria-label="Back to top" hidden>
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
